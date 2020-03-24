@@ -48,7 +48,7 @@ function NavTabs(props) {
             onClick={() => props.handlePageChange("Blog")}
             className={props.currentPage === "Blog" ? "nav-link active" : "nav-link"}
           >
-            Blog
+            Portfolio
         </a>
         </ul>
         <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
